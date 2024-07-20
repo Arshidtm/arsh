@@ -1,0 +1,290 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+
+.nav{
+    background:transparent;
+    color: white;
+    padding-left: 20px;
+    display: flex; 
+    position: fixed;
+    align-items: center;
+    justify-content: space-between; 
+}
+.nav img{
+    height: 100px;
+    width: 200px;
+    margin-left: 30px;
+}
+.nav .nav-list{
+    list-style-type: none;
+}
+.nav-list li{
+    display: inline;
+    padding: 5px;
+    margin-left: 10px;
+   
+}
+.nav-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+.nav-list li a:hover{
+    text-decoration: underline;
+}
+.nav-button{
+    padding: 5px;
+    margin-right: 5px;
+}
+.nav-button button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.nav-button .shop{
+    margin-left: 30px;
+}
+.nav-button .shop:hover{
+    text-decoration: underline;
+}
+.head{
+    background: transparent;
+    color: white;
+    position: relative;
+    background-image: url(starlink.webp);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.head .words{
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+.head .words p{
+    margin-bottom: 10px;
+}
+.head .words h1{
+    margin-bottom: 20px;
+}
+.head .words button{
+    padding: 20px 40px;
+    border: 1;
+    outline: auto;
+    background: transparent;
+    color: white;
+    
+    font-weight: 600;
+    
+}
+.head .words button:hover{
+    background: white;
+    color: black;
+    transform: 0.3s ease all;
+}
+
+
+.head2{
+    background: transparent;
+    color: white;
+    position: relative;
+    background-image: url(turkast.webp);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.head2 .words{
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    font-size: 20;
+    padding: 10px;
+}
+.head2 .words p{
+    margin-bottom: 10px;
+}
+.head2 .words h1{
+    margin-bottom: 20px;
+}
+.head2 .words button{
+    padding: 20px 40px;
+    border: 1;
+    outline: auto;
+    background: transparent;
+    color: white;
+    
+    font-weight: 600;
+    
+}
+.head2 .words button:hover{
+    background: white;
+    color: black;
+    transform: 0.3s ease all;
+}
+
+.head3{
+    background: transparent;
+    color: white;
+    position: relative;
+    background-image: url(star.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.head3 .words{
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+.head3 .words p{
+    margin-bottom: 10px;
+}
+.head3 .words h1{
+    margin-bottom: 20px;
+}
+.head3 .words button{
+    padding: 20px 40px;
+    border: 1;
+    outline: auto;
+    background: transparent;
+    color: white;
+    
+    font-weight: 600;
+    
+}
+.head3 .words button:hover{
+    background: white;
+    color: black;
+    transform: 0.3s ease all;
+}
+.head4{
+    background: transparent;
+    color: white;
+    position: relative;
+    background-image: url(spacelift.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.head4 .words{
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.head4 .words h1{
+    margin-bottom: 10px;
+}
+.head4 .words button{
+    padding: 20px 40px;
+    border: 1;
+    outline: auto;
+    background: transparent;
+    color: white;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+    
+}
+.head4 .words button:hover{
+    background: white;
+    color: black;
+    transform: 0.3s ease all;
+}
+.head5{
+    background: transparent;
+    color: white;
+    position: relative;
+    background-image: url(LAST.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.head5 .words{
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.head5 .words h1{
+    margin-bottom: 10px;
+}
+.head5 .words button{
+    padding: 20px 40px;
+    border: 1;
+    outline: auto;
+    background: transparent;
+    color: white;
+    
+    font-weight: 600;
+    
+}
+.head5 .words button:hover{
+    background: white;
+    color: black;
+    transform: 0.3s ease all;
+}
+.footer{
+    text-align: center;
+}
+.footer-link{
+    padding-left: 450px;
+}
+
+.footer-link ul{
+    display: flex;
+    list-style: none;       
+}
+.footer-link ul li{
+    padding: 30px;
+    color: rgb(203, 205, 206);
+    font-size: 11px;
+    font-weight: 600;
+
+}
+.footer-link ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer-link ul li a:hover{
+    
+    text-decoration: underline;
+}
