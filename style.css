@@ -3,6 +3,7 @@
     margin: 0px;
     
 }
+/* Body Backbround to Black */
 body{
     background: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +11,7 @@ body{
     
 }
 
-
+/* Navigation Bar */
 .nav{
     background:transparent;
     color: white;
@@ -62,6 +63,7 @@ body{
 .nav-button .shop:hover{
     text-decoration: underline;
 }
+/* Starlink mission */
 .head{
     background: transparent;
     color: white;
@@ -104,7 +106,7 @@ body{
     transform: 0.3s ease all;
 }
 
-
+/* Turkast 6A Mission */
 .head2{
     background: transparent;
     color: white;
@@ -146,6 +148,7 @@ body{
     transform: 0.3s ease all;
 }
 
+/* Starlink Mission Video */
 .head3{
     background: transparent;
     color: white;
@@ -186,6 +189,7 @@ body{
     color: black;
     transform: 0.3s ease all;
 }
+/* Advancing Human Spacelift */
 .head4{
     background: transparent;
     color: white;
@@ -224,6 +228,7 @@ body{
     color: black;
     transform: 0.3s ease all;
 }
+/* Multiplanetary Life */
 .head5{
     background: transparent;
     color: white;
@@ -262,6 +267,7 @@ body{
     color: black;
     transform: 0.3s ease all;
 }
+/* Footer */
 .footer{
     text-align: center;
 }
